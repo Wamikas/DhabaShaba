@@ -173,7 +173,7 @@ width: 11px;
 }
 
 .navigation .navbar-nav > li > a {
-  color: #fff;
+  color: #2c3e50;
   font-size: 13px;
   font-weight: 600;
   padding: 38px 25px;
@@ -181,7 +181,7 @@ width: 11px;
 }
 
 .navigation .navbar-nav > li.current > a {
-  color: #00C7FC;
+  color: #2c3e50;
   border-bottom: 1px solid #00C7FC;
 }
 
@@ -253,10 +253,10 @@ width: 11px;
 }
 
 .carousel-caption > div {
-  background-color: rgba(15,116,143,0.8);
+  background-color: rgba(44, 62, 80,0.7);
   padding: 60px 50px 80px 20%;
   position: absolute;
-  top: 25%;
+  top: 41%;
   width: 76%;
 }
 
