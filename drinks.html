@@ -155,34 +155,49 @@
         <!--
         End #count
         ========================== -->
-        <!--
-        #chefinfo
-        ========================== -->
-        <section id="chefs">
-            <div class="container">
-                <div class="row">
+<!--
+        Home Slider
+        ==================================== -->
+        <section id="home">     
+            <div id="home-carousel" class="carousel slide" data-interval="false">
+                <ol class="carousel-indicators">
+                    <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#home-carousel" data-slide-to="1"></li>
+                    <li data-target="#home-carousel" data-slide-to="2"></li>
+                </ol>
+                <!--/.carousel-indicators-->
 
-                    <div class="section-title text-center wow fadeInDown">
-                        <h2>Daru Sharu</h2>
-                        <p>If you're not the one cooking,<br>stay out of the way and compliment the chef.</p>
+                <div class="carousel-inner">
+
+                    <div class="item active"  style="height: 950px; background-image: url('img/drinkslider/Picture1.jpg')" >
+                        <div class="carousel-caption">
+                        </div>
+                    </div>              
+
+                    <div class="item" style="height: 950px; background-image: url('img/drinkslider/Picture3.jpg')">                 
+                         <div class="carousel-caption">
+                         </div>
                     </div>
-                    
-                    <div class="col-md-8 col-sm-9 wow fadeInLeft">
-                        <img data-wow-delay="0.2s" class="img-responsive white  wow fadeInLeftBig" src='img/drinks/img5.jpg' alt="Strawberry">
-                    </div> <!-- .col-md-8 -->
 
-                    <div class="col-md-4 col-sm-3 wow fadeInRight">
-                        <div class="contact-details">
-                            <span>The one for something sweet</span>
-                            <p>The time where people demanded something sweet from the bartender and he was totally prepared with all the shopping he did that day to get people tally. Not to forget that Harinee loves strawberries.</p>
-                        </div> <!-- end .contact-details -->
-                    </div> <!-- .col-md-4 -->
-
+                    <div class="item" style="height: 950px; background-image: url('img/drinkslider/Picture2.jpg')">                 
+                         <div class="carousel-caption">
+                         </div>
+                    </div>
                 </div>
+                <!--/.carousel-inner-->
+                <nav id="nav-arrows" class="nav-arrows hidden-xs hidden-sm visible-md visible-lg">
+                    <a class="sl-prev hidden-xs" href="#home-carousel" data-slide="prev">
+                        <i class="fa fa-angle-left fa-3x"></i>
+                    </a>
+                    <a class="sl-next" href="#home-carousel" data-slide="next">
+                        <i class="fa fa-angle-right fa-3x"></i>
+                    </a>
+                </nav>
+
             </div>
         </section>
         <!--
-        End #chefinfo
+        End #home Slider
         ========================== -->
         <!--
         #footer
